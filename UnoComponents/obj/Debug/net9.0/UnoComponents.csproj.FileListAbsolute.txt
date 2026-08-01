@@ -13,3 +13,4 @@ C:\Users\ANair\Documents\C# Projects\WIP\Uno\UnoComponents\bin\Debug\net9.0\Meth
 C:\Users\ANair\Documents\C# Projects\WIP\Uno\UnoComponents\bin\Debug\net9.0\MethodLibrary.pdb
 C:\Users\ANair\Documents\C# Projects\WIP\Uno\UnoComponents\obj\Debug\net9.0\UnoComponents.csproj.AssemblyReference.cache
 C:\Users\ANair\Documents\C# Projects\WIP\Uno\UnoComponents\obj\Debug\net9.0\UnoCompo.FBC5934E.Up2Date
+C:\Users\ANair\Documents\C# Projects\WIP\Uno\UnoComponents\obj\Debug\net9.0\UnoComponents.sourcelink.json

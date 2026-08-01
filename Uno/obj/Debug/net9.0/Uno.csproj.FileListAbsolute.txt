@@ -35,3 +35,4 @@ C:\Users\ANair\Documents\C# Projects\WIP\Uno\Uno\bin\Debug\net9.0\runtimes\win-a
 C:\Users\ANair\Documents\C# Projects\WIP\Uno\Uno\bin\Debug\net9.0\runtimes\win-x64\native\miniaudio.dll
 C:\Users\ANair\Documents\C# Projects\WIP\Uno\Uno\bin\Debug\net9.0\runtimes\win-x86\native\miniaudio.dll
 c:\Users\ANair\Documents\C# Projects\WIP\Uno\Uno\bin\Debug\net9.0\Pastel.dll
+C:\Users\ANair\Documents\C# Projects\WIP\Uno\Uno\obj\Debug\net9.0\Uno.sourcelink.json

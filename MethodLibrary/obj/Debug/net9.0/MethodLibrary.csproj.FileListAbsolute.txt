@@ -9,3 +9,4 @@ C:\Users\ANair\Documents\C# Projects\WIP\Uno\MethodLibrary\obj\Debug\net9.0\Meth
 C:\Users\ANair\Documents\C# Projects\WIP\Uno\MethodLibrary\obj\Debug\net9.0\refint\MethodLibrary.dll
 C:\Users\ANair\Documents\C# Projects\WIP\Uno\MethodLibrary\obj\Debug\net9.0\MethodLibrary.pdb
 C:\Users\ANair\Documents\C# Projects\WIP\Uno\MethodLibrary\obj\Debug\net9.0\ref\MethodLibrary.dll
+C:\Users\ANair\Documents\C# Projects\WIP\Uno\MethodLibrary\obj\Debug\net9.0\MethodLibrary.sourcelink.json
