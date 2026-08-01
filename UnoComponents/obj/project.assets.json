@@ -1,0 +1,272 @@
+{
+  "version": 4,
+  "targets": {
+    "net9.0": {
+      "Pastel/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/Pastel.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Pastel.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "SoundFlow/1.4.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/SoundFlow.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/SoundFlow.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/android-arm/native/libminiaudio.so": {
+            "assetType": "native",
+            "rid": "android-arm"
+          },
+          "runtimes/android-arm64/native/libminiaudio.so": {
+            "assetType": "native",
+            "rid": "android-arm64"
+          },
+          "runtimes/android-x64/native/libminiaudio.so": {
+            "assetType": "native",
+            "rid": "android-x64"
+          },
+          "runtimes/freebsd-arm64/native/libminiaudio.so": {
+            "assetType": "native",
+            "rid": "freebsd-arm64"
+          },
+          "runtimes/freebsd-x64/native/libminiaudio.so": {
+            "assetType": "native",
+            "rid": "freebsd-x64"
+          },
+          "runtimes/ios-arm64/native/miniaudio.framework/Info.plist": {
+            "assetType": "native",
+            "rid": "ios-arm64"
+          },
+          "runtimes/ios-arm64/native/miniaudio.framework/miniaudio": {
+            "assetType": "native",
+            "rid": "ios-arm64"
+          },
+          "runtimes/linux-arm/native/libminiaudio.so": {
+            "assetType": "native",
+            "rid": "linux-arm"
+          },
+          "runtimes/linux-arm64/native/libminiaudio.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-x64/native/libminiaudio.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-arm64/native/libminiaudio.dylib": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-x64/native/libminiaudio.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-arm64/native/miniaudio.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          },
+          "runtimes/win-x64/native/miniaudio.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/miniaudio.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "MethodLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/MethodLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MethodLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Pastel/8.0.0": {
+      "sha512": "sdjbLvP4KknT7nz9qGq2/jV4QznaSCtTnK/jpmRJP3oaTFdyowTO7fe+h68TkHqCwRJhGAXDHcTznEFdlN4oUw==",
+      "type": "package",
+      "path": "pastel/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "icon.png",
+        "lib/net462/Pastel.dll",
+        "lib/net462/Pastel.xml",
+        "lib/net8.0/Pastel.dll",
+        "lib/net8.0/Pastel.xml",
+        "lib/net9.0/Pastel.dll",
+        "lib/net9.0/Pastel.xml",
+        "pastel.8.0.0.nupkg.sha512",
+        "pastel.nuspec"
+      ]
+    },
+    "SoundFlow/1.4.1": {
+      "sha512": "KsCcIjdH6PzPwtpRZLtZtBWLPIU75cLSSRSI4E4e7Yf6X6bE4PnKYzBp9McsnbsObH6ITtf55NaMyrXv9A8+tw==",
+      "type": "package",
+      "path": "soundflow/1.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CONTRIBUTING.md",
+        "LICENSE.md",
+        "README.md",
+        "SOUNDFLOW-THIRD-PARTY-NOTICES.txt",
+        "SoundFlow.targets",
+        "lib/net8.0/SoundFlow.dll",
+        "lib/net8.0/SoundFlow.xml",
+        "logo.png",
+        "runtimes/android-arm/native/libminiaudio.so",
+        "runtimes/android-arm64/native/libminiaudio.so",
+        "runtimes/android-x64/native/libminiaudio.so",
+        "runtimes/freebsd-arm64/native/libminiaudio.so",
+        "runtimes/freebsd-x64/native/libminiaudio.so",
+        "runtimes/ios-arm64/native/miniaudio.framework/Info.plist",
+        "runtimes/ios-arm64/native/miniaudio.framework/miniaudio",
+        "runtimes/linux-arm/native/libminiaudio.so",
+        "runtimes/linux-arm64/native/libminiaudio.so",
+        "runtimes/linux-x64/native/libminiaudio.so",
+        "runtimes/osx-arm64/native/libminiaudio.dylib",
+        "runtimes/osx-x64/native/libminiaudio.dylib",
+        "runtimes/win-arm64/native/miniaudio.dll",
+        "runtimes/win-x64/native/miniaudio.dll",
+        "runtimes/win-x86/native/miniaudio.dll",
+        "soundflow.1.4.1.nupkg.sha512",
+        "soundflow.nuspec"
+      ]
+    },
+    "MethodLibrary/1.0.0": {
+      "type": "project",
+      "path": "../MethodLibrary/MethodLibrary.csproj",
+      "msbuildProject": "../MethodLibrary/MethodLibrary.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "MethodLibrary >= 1.0.0",
+      "Pastel >= 8.0.0",
+      "SoundFlow >= 1.4.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ANair\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\ANair\\Documents\\C# Projects\\WIP\\Uno\\UnoComponents\\UnoComponents.csproj",
+      "projectName": "UnoComponents",
+      "projectPath": "C:\\Users\\ANair\\Documents\\C# Projects\\WIP\\Uno\\UnoComponents\\UnoComponents.csproj",
+      "packagesPath": "C:\\Users\\ANair\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ANair\\Documents\\C# Projects\\WIP\\Uno\\UnoComponents\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\ANair\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "framework": "net9.0",
+          "targetAlias": "net9.0",
+          "projectReferences": {
+            "C:\\Users\\ANair\\Documents\\C# Projects\\WIP\\Uno\\MethodLibrary\\MethodLibrary.csproj": {
+              "projectPath": "C:\\Users\\ANair\\Documents\\C# Projects\\WIP\\Uno\\MethodLibrary\\MethodLibrary.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "10.0.300"
+    },
+    "frameworks": {
+      "net9.0": {
+        "framework": "net9.0",
+        "targetAlias": "net9.0",
+        "dependencies": {
+          "Pastel": {
+            "target": "Package",
+            "version": "[8.0.0, )"
+          },
+          "SoundFlow": {
+            "target": "Package",
+            "version": "[1.4.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[9.0.18, 9.0.18]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[9.0.18, 9.0.18]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[9.0.18, 9.0.18]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.302/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

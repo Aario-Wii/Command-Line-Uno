@@ -1,0 +1,15 @@
+C:\Users\ANair\Documents\C# Projects\WIP\Uno\UnoComponents\bin\Debug\net9.0\UnoComponents.deps.json
+C:\Users\ANair\Documents\C# Projects\WIP\Uno\UnoComponents\bin\Debug\net9.0\UnoComponents.dll
+C:\Users\ANair\Documents\C# Projects\WIP\Uno\UnoComponents\bin\Debug\net9.0\UnoComponents.pdb
+C:\Users\ANair\Documents\C# Projects\WIP\Uno\UnoComponents\obj\Debug\net9.0\UnoComponents.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ANair\Documents\C# Projects\WIP\Uno\UnoComponents\obj\Debug\net9.0\UnoComponents.AssemblyInfoInputs.cache
+C:\Users\ANair\Documents\C# Projects\WIP\Uno\UnoComponents\obj\Debug\net9.0\UnoComponents.AssemblyInfo.cs
+C:\Users\ANair\Documents\C# Projects\WIP\Uno\UnoComponents\obj\Debug\net9.0\UnoComponents.csproj.CoreCompileInputs.cache
+C:\Users\ANair\Documents\C# Projects\WIP\Uno\UnoComponents\obj\Debug\net9.0\UnoComponents.dll
+C:\Users\ANair\Documents\C# Projects\WIP\Uno\UnoComponents\obj\Debug\net9.0\refint\UnoComponents.dll
+C:\Users\ANair\Documents\C# Projects\WIP\Uno\UnoComponents\obj\Debug\net9.0\UnoComponents.pdb
+C:\Users\ANair\Documents\C# Projects\WIP\Uno\UnoComponents\obj\Debug\net9.0\ref\UnoComponents.dll
+C:\Users\ANair\Documents\C# Projects\WIP\Uno\UnoComponents\bin\Debug\net9.0\MethodLibrary.dll
+C:\Users\ANair\Documents\C# Projects\WIP\Uno\UnoComponents\bin\Debug\net9.0\MethodLibrary.pdb
+C:\Users\ANair\Documents\C# Projects\WIP\Uno\UnoComponents\obj\Debug\net9.0\UnoComponents.csproj.AssemblyReference.cache
+C:\Users\ANair\Documents\C# Projects\WIP\Uno\UnoComponents\obj\Debug\net9.0\UnoCompo.FBC5934E.Up2Date

@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MethodLibrary\MethodLibrary.csproj" />
+    <ProjectReference Include="..\UnoComponents\UnoComponents.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Audio\" />
+    <Folder Include="Audio\BGM\" />
+    <Folder Include="Audio\SFX\" />
+  </ItemGroup>
+
+</Project>

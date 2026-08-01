@@ -1,0 +1,12 @@
+C:\Users\ANair\Documents\C# Projects\WIP\Uno\MethodLibrary\bin\Release\net9.0\MethodLibrary.deps.json
+C:\Users\ANair\Documents\C# Projects\WIP\Uno\MethodLibrary\bin\Release\net9.0\MethodLibrary.dll
+C:\Users\ANair\Documents\C# Projects\WIP\Uno\MethodLibrary\bin\Release\net9.0\MethodLibrary.pdb
+C:\Users\ANair\Documents\C# Projects\WIP\Uno\MethodLibrary\obj\Release\net9.0\MethodLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ANair\Documents\C# Projects\WIP\Uno\MethodLibrary\obj\Release\net9.0\MethodLibrary.AssemblyInfoInputs.cache
+C:\Users\ANair\Documents\C# Projects\WIP\Uno\MethodLibrary\obj\Release\net9.0\MethodLibrary.AssemblyInfo.cs
+C:\Users\ANair\Documents\C# Projects\WIP\Uno\MethodLibrary\obj\Release\net9.0\MethodLibrary.csproj.CoreCompileInputs.cache
+C:\Users\ANair\Documents\C# Projects\WIP\Uno\MethodLibrary\obj\Release\net9.0\MethodLibrary.dll
+C:\Users\ANair\Documents\C# Projects\WIP\Uno\MethodLibrary\obj\Release\net9.0\refint\MethodLibrary.dll
+C:\Users\ANair\Documents\C# Projects\WIP\Uno\MethodLibrary\obj\Release\net9.0\MethodLibrary.pdb
+C:\Users\ANair\Documents\C# Projects\WIP\Uno\MethodLibrary\obj\Release\net9.0\ref\MethodLibrary.dll
+C:\Users\ANair\Documents\C# Projects\WIP\Uno\MethodLibrary\obj\Release\net9.0\MethodLibrary.csproj.AssemblyReference.cache

@@ -1,0 +1,11 @@
+C:\Users\ANair\Documents\C# Projects\WIP\Uno\Uno\bin\Release\net9.0\win-x86\publish\Uno.exe
+C:\Users\ANair\Documents\C# Projects\WIP\Uno\Uno\bin\Release\net9.0\win-x86\publish\Uno.dll
+C:\Users\ANair\Documents\C# Projects\WIP\Uno\Uno\bin\Release\net9.0\win-x86\publish\Uno.deps.json
+C:\Users\ANair\Documents\C# Projects\WIP\Uno\Uno\bin\Release\net9.0\win-x86\publish\Uno.runtimeconfig.json
+C:\Users\ANair\Documents\C# Projects\WIP\Uno\Uno\bin\Release\net9.0\win-x86\publish\Uno.pdb
+C:\Users\ANair\Documents\C# Projects\WIP\Uno\Uno\bin\Release\net9.0\win-x86\publish\SoundFlow.dll
+C:\Users\ANair\Documents\C# Projects\WIP\Uno\Uno\bin\Release\net9.0\win-x86\publish\miniaudio.dll
+C:\Users\ANair\Documents\C# Projects\WIP\Uno\Uno\bin\Release\net9.0\win-x86\publish\MethodLibrary.dll
+C:\Users\ANair\Documents\C# Projects\WIP\Uno\Uno\bin\Release\net9.0\win-x86\publish\UnoComponents.dll
+C:\Users\ANair\Documents\C# Projects\WIP\Uno\Uno\bin\Release\net9.0\win-x86\publish\MethodLibrary.pdb
+C:\Users\ANair\Documents\C# Projects\WIP\Uno\Uno\bin\Release\net9.0\win-x86\publish\UnoComponents.pdb
