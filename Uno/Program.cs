@@ -42,7 +42,7 @@ public class Program
             Console.WriteLine(versionnum + "\n");
             Console.WriteLine("Welcome to Command Line Uno!");
             Console.WriteLine("What would you like to do?");
-            Console.WriteLine("{0,-15} | {1,-11} | {2,-20} | {3,-17}", "1. Start A Game", "2. Settings", "3. Exit the Game");
+            Console.WriteLine($"{"1. Start A Game",-15} | {"2. Settings",-11} | {"3. Exit the Game",-20}");
             switch (Read.String().ToLower())
             {
                 case "1":
