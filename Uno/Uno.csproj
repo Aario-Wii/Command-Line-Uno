@@ -13,9 +13,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Audio\" />
-    <Folder Include="Audio\BGM\" />
-    <Folder Include="Audio\SFX\" />
+    <Content Include="Audio\**\*">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      </Content>
   </ItemGroup>
 
 </Project>

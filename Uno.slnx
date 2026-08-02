@@ -1,0 +1,10 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="MethodLibrary/MethodLibrary.csproj" />
+  <Project Path="Uno/Uno.csproj" />
+  <Project Path="UnoComponents/UnoComponents.csproj" />
+</Solution>
