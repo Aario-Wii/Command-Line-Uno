@@ -23,3 +23,5 @@
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode
 .vscode/launch.json
 .vscode/tasks.json
+bin/
+obj/
