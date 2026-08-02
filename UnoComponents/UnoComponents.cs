@@ -2350,7 +2350,7 @@ namespace UnoComponents
                     clearnum = Console.CursorTop;
                 }
                 Console.WriteLine("What would you like to do?");
-                Console.WriteLine("{0,-15} | {1,-36} | {2,-23} | {3,-15} | {4,-16}", "1. Change Rules", "2. Manage Custom Cards in Normal Uno", "3. Create a Custom Deck", "4. Edit Sound Settings", "5. Exit Settings");
+                Console.WriteLine($"{"1. Change Rules",-15} | {"2. Manage Custom Cards in Normal Uno",-36} | {"3. Edit Sound Settings",-23} | {"4. Exit Settings",-16}");
                 switch (Read.String().ToLower())
                 {
                     case "1":
@@ -2372,20 +2372,11 @@ namespace UnoComponents
                         }
                         break;
                     case "3":
-                    case "create a custom deck":
-                        player.PlaySFX(SoundFX.Select);
-                        Console.WriteLine("Not Implemented Yet!");
-                        if (!Console.IsOutputRedirected)
-                        {
-                            ConsoleUtilities.ClearLines(clearnum);
-                        }
-                        break;
-                    case "4":
                     case "edit sound settings":
                         player.PlaySFX(SoundFX.Select);
                         SoundSettings(ref player);
                         break;
-                    case "5":
+                    case "4":
                     case "exit settings":
                         player.PlaySFX(SoundFX.Select);
                         return;
