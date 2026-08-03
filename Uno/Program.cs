@@ -24,7 +24,7 @@ public class Program
         bool launcheroverride = false;
         SoundManager sound = new SoundManager();
         ILauncher launcher = new AttackLauncher();
-        string versionnum = "v1.0.0";
+        string versionnum = "v1.0.1";
         Console.Title = "Command Line Uno";
         
         sound.InitializeBGM();
