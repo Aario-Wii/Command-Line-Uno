@@ -1,10 +1,7 @@
 ﻿/*Potential Updates: 
 Add settings to add rules like Seven-O and add a user-defined custom deck, custom launchers?
-Add Uno No Mercy, Uno Flip, Uno Console Edition
-Add Launcher Override in
-Make computers only swap if they don't have the least amount of cards
-Add new sound effects for new cards if they need it
-Add ? descriptions for everything to explain what it does*/
+Add Uno No Mercy, Uno Flip
+Add new sound effects for new cards if they need it*/
 
 using UnoComponents;
 using MethodLibrary;
