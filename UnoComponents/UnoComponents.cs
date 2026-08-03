@@ -147,7 +147,7 @@ namespace UnoComponents
                 return false;
             }
 
-            if (tester?.Color == Color && tester.IsPlus == IsPlus && tester.GetType() == this.GetType())
+            if (tester?.Color == Color && tester.GetType() == this.GetType())
             {
                 return true;
             }
