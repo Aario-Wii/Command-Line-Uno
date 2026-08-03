@@ -2021,9 +2021,9 @@ namespace UnoComponents
             bool needtochoose = false;
             bool quedchoose = false;
             int plussedplayernum = 0;
-            bool swapornot = false;
-            bool shuffle = false;
-            int beforedrawnum = 0;
+            bool swapornot;
+            bool shuffleNeeded = false;
+            int beforedrawnum;
             List<IPlayer> finishedplayers = new List<IPlayer>(players.Count - 1);
             string drawmess(IPlayer player)
             {
@@ -2056,9 +2056,11 @@ namespace UnoComponents
                     return player.ToString() + " picked up " + numofdraws + " cards";
                 }
             }
-                Console.Clear();
+            
+            Console.Clear();
             manager.PlaySFX(SoundFX.CardMove);
             Console.WriteLine("The starting card is: " + discard.Pile[discard.Pile.Count() - 1].ToString());
+
             while (!finished)
             {
                 if (players.Count > 1)
@@ -2067,7 +2069,7 @@ namespace UnoComponents
                     {
                         deck.FillDeck(players);
                     }
-                    if (shuffle)
+                    if (shuffleNeeded)
                     {
                         ShuffleHands(players);
                         manager.PlaySFX(SoundFX.Shuffle);
@@ -2277,7 +2279,7 @@ namespace UnoComponents
                     {
                         Console.WriteLine(writestring);
                     }
-                    CardFunctions(ref reversed, ref numofskips, ref numofdraws, discard, playedcard, players.Count, ref needtochoose, ref shuffle);
+                    CardFunctions(ref reversed, ref numofskips, ref numofdraws, discard, playedcard, players.Count, ref needtochoose, ref shuffleNeeded);
                     if (players[playernum].Hand.Count == 1)
                     {
                         Console.WriteLine(players[playernum].ToString() + " has Uno!\n");
