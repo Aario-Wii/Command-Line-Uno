@@ -797,7 +797,7 @@ namespace UnoComponents
                         loopcount--;
                     }
                 }
-                int choosenum = -1;
+                int choosenum;
                 if (Read.Int() is int inc && inc < players.IndexOf(this) + 1)
                 {
                     choosenum = inc - 1;
