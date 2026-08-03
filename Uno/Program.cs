@@ -4,7 +4,6 @@ Add Uno No Mercy, Uno Flip, Uno Console Edition
 Add Launcher Override in
 Make computers only swap if they don't have the least amount of cards
 Add new sound effects for new cards if they need it
-Fix Clear Lines
 Add ? descriptions for everything to explain what it does*/
 
 using UnoComponents;

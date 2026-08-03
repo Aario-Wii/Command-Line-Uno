@@ -1943,7 +1943,6 @@ namespace UnoComponents
                             shuffle = false;
                             break;
                         case ReverseCard:
-                            reversed = !reversed;
                             numofdraws = 0;
                             if (playercount == 2)
                             {
@@ -1952,6 +1951,7 @@ namespace UnoComponents
                             else
                             {
                                 numofskips = 0;
+                                reversed = !reversed;
                             }
                             needtochoose = false;
                             shuffle = false;
@@ -2056,10 +2056,7 @@ namespace UnoComponents
                     return player.ToString() + " picked up " + numofdraws + " cards";
                 }
             }
-            if (!Console.IsOutputRedirected)
-            {
                 Console.Clear();
-            }
             manager.PlaySFX(SoundFX.CardMove);
             Console.WriteLine("The starting card is: " + discard.Pile[discard.Pile.Count() - 1].ToString());
             while (!finished)
@@ -2183,63 +2180,63 @@ namespace UnoComponents
                                 manager.PlaySFX(SoundFX.CardMove);
                             }
                             try
-                                {
-                                    beforedrawnum = players[plussedplayernum].Hand.Count;
+                            {
+                                beforedrawnum = players[plussedplayernum].Hand.Count;
 
-                                    if (players[plussedplayernum].DrawCard(deck))
-                                    {
-                                        if (i == numofdraws - 1)
-                                        {
-                                            Console.WriteLine(fronthalfdraw(players[plussedplayernum]) + drawmess(players[plussedplayernum]));
-                                        }
-                                    }
-                                    else
-                                    {
-                                        if (i == numofdraws - 1)
-                                        {
-                                            Console.WriteLine(players[plussedplayernum].ToString() + " pressed the Launcher button " + numofdraws + " times and did not recieve any cards\n");
-                                        }
-                                    }
-                                }
-                                catch
+                                if (players[plussedplayernum].DrawCard(deck))
                                 {
-                                    if (!reversed || playernum == 0 && players.Count == 2)
+                                    if (i == numofdraws - 1)
                                     {
-                                        beforedrawnum = players[players.Count - 1].Hand.Count;
-                                        if (players[players.Count - 1].DrawCard(deck))
+                                        Console.WriteLine(fronthalfdraw(players[plussedplayernum]) + drawmess(players[plussedplayernum]));
+                                    }
+                                }
+                                else
+                                {
+                                    if (i == numofdraws - 1)
+                                    {
+                                        Console.WriteLine(players[plussedplayernum].ToString() + " pressed the Launcher button " + numofdraws + " times and did not recieve any cards\n");
+                                    }
+                                }
+                            }
+                            catch
+                            {
+                                if (!reversed || playernum == 0 && players.Count == 2)
+                                {
+                                    beforedrawnum = players[players.Count - 1].Hand.Count;
+                                    if (players[players.Count - 1].DrawCard(deck))
+                                    {
+                                        if (i == numofdraws - 1)
                                         {
-                                            if (i == numofdraws - 1)
-                                            {
-                                                Console.WriteLine(fronthalfdraw(players[players.Count - 1]) + drawmess(players[players.Count - 1]));
-                                            }
-                                        }
-                                        else
-                                        {
-                                            if (i == numofdraws - 1)
-                                            {
-                                                Console.WriteLine(players[players.Count - 1].ToString() + " pressed the Launcher button " + numofdraws + " times and did not recieve any cards\n");
-                                            }
+                                            Console.WriteLine(fronthalfdraw(players[players.Count - 1]) + drawmess(players[players.Count - 1]));
                                         }
                                     }
                                     else
                                     {
-                                        beforedrawnum = players[0].Hand.Count;
-                                        if (players[0].DrawCard(deck))
+                                        if (i == numofdraws - 1)
                                         {
-                                            if (i == numofdraws - 1)
-                                            {
-                                                Console.WriteLine(fronthalfdraw(players[0]) + drawmess(players[0]));
-                                            }
-                                        }
-                                        else
-                                        {
-                                            if (i == numofdraws - 1)
-                                            {
-                                                Console.WriteLine(players[0].ToString() + " pressed the Launcher button " + numofdraws + " times and did not recieve any cards\n");
-                                            }
+                                            Console.WriteLine(players[players.Count - 1].ToString() + " pressed the Launcher button " + numofdraws + " times and did not recieve any cards\n");
                                         }
                                     }
                                 }
+                                else
+                                {
+                                    beforedrawnum = players[0].Hand.Count;
+                                    if (players[0].DrawCard(deck))
+                                    {
+                                        if (i == numofdraws - 1)
+                                        {
+                                            Console.WriteLine(fronthalfdraw(players[0]) + drawmess(players[0]));
+                                        }
+                                    }
+                                    else
+                                    {
+                                        if (i == numofdraws - 1)
+                                        {
+                                            Console.WriteLine(players[0].ToString() + " pressed the Launcher button " + numofdraws + " times and did not recieve any cards\n");
+                                        }
+                                    }
+                                }
+                            }
                         }
                         else
                         {
